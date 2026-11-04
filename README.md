@@ -250,9 +250,9 @@ uv run python -m src.downloader
 - [Publicar Google Sheets como CSV](https://support.google.com/docs/answer/183965)
 
 ## 👤 Autores
-[@Asonxc](https://github.com/Asonxc)
-[@decigamelanie-web](https://github.com/decigamelanie-web)
-[@EstefaniDL](https://github.com/EstefaniDL)
-[@MysticMichelle](https://github.com/MysticMichelle)
-[@Sin_R0str0](https://github.com/SinR0str0)
+[@Asonxc](https://github.com/Asonxc), 
+[@decigamelanie-web](https://github.com/decigamelanie-web), 
+[@EstefaniDL](https://github.com/EstefaniDL), 
+[@MysticMichelle](https://github.com/MysticMichelle), 
+[@Sin_R0str0](https://github.com/SinR0str0), 
 [@songohan654](https://github.com/songohan654)
