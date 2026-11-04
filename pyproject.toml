@@ -1,0 +1,29 @@
+[project]
+name = "Limpieza Datos Amor Acatlán"
+version = "0.1.0"
+description = "Pipeline de datos: descarga, limpieza y dashboard"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2.0",
+    "requests>=2.31.0",
+    "streamlit>=1.35.0",
+    "jupyter>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.4.0",
+]
+
+[project.scripts]
+download = "src.downloader:main"
+clean = "src.cleaner:main"
+dashboard = "src.dashboard.app:run"
+
+[tool.uv]
+dev-dependencies = ["pytest>=8.0.0", "ruff>=0.4.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
