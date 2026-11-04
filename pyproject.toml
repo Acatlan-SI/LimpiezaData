@@ -1,5 +1,5 @@
 [project]
-name = "Limpieza Datos Amor Acatlán"
+name = "LimpiezaData-Acatlan"
 version = "0.1.0"
 description = "Pipeline de datos: descarga, limpieza y dashboard"
 requires-python = ">=3.11"
