@@ -4,7 +4,8 @@ from pathlib import Path
 import os
 
 DEFAULT_SHEET_URL = (
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQmx6xTqJDv0c-e9SAWH7Jku6ZCiIfIbSrKHHXD1oxrslbA0j3ZqpAP6pP8SXd2CmLB5WDHanazOy12/pub?gid=1639119631&single=true&output=csv"
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQmx6xTqJDv0c-e9SAWH7Jku6ZCiIfIbSrKHHXD1oxrslbA0j3ZqpAP6pP8SXd2CmLB5WDHanazOy12/pub?gid=1639119631&single=true&output=csv",
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vS8o3XaQ5AwlaMAjohBzU60Si7KSR5Z3gcSRkJwkToaVZYNcaetXjGx9NEgcPM7vsUW2JC1riOB71Bd/pub?gid=497996380&single=true&output=csv"
 )
 
 SHEET_CSV_URL = DEFAULT_SHEET_URL
