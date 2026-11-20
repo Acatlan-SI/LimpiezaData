@@ -63,8 +63,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 source ~/.bashrc   # o ~/.zshrc
 
 # 2. Clonar el repositorio
-git clone https://github.com/TU_USUARIO/mi-proyecto.git
-cd mi-proyecto
+git clone https://github.com/Acatlan-SI/LimpiezaData.git
+cd LimpiezaData
 
 # 3. Sincronizar dependencias (crea .venv automáticamente)
 uv sync
@@ -82,7 +82,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 
 # 2. Clonar el repositorio
 git clone https://github.com/Acatlan-SI/LimpiezaData.git
-cd mi-proyecto
+cd LimpiezaData
 
 # 3. Sincronizar dependencias
 uv sync
