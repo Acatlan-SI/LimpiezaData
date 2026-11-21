@@ -1,0 +1,8 @@
+rol,id,escenario,modelo,accuracy,balanced_accuracy,f1_macro,precision,recall,roc_auc,roc_auc_por_particion,brier,balanced_accuracy_std
+"Mejor modelo anterior (V1, regla común)",V1 | musica_sola | Decision Tree,musica_sola,Decision Tree,0.47,0.4606,0.4498,0.4062,0.3667,0.4343,0.4392,0.3919,0.0769
+Modelo oficial V1 (Relaciones + Música),V1 | relaciones_musica | Decision Tree,relaciones_musica,Decision Tree,0.405,0.3965,0.3893,0.3159,0.3111,0.3631,0.4042,0.4375,0.0864
+Mejor modelo nuevo (V2),V2 | relaciones_musica | SVM RBF,relaciones_musica,SVM RBF,0.715,0.7066,0.7066,0.729,0.6222,0.8253,0.855,0.1831,0.0964
+Dummy Classifier (baseline),V1 | relaciones | Dummy (prior),relaciones,Dummy (prior),0.55,0.5,0.3548,0.0,0.0,0.4192,0.5,0.2531,0.0
+Selección automática anidada V2 (Relaciones),V2 | relaciones | Seleccion automatica anidada,relaciones,Seleccion automatica anidada,0.47,0.4717,0.4641,0.4289,0.4889,0.5207,0.5475,0.2767,0.1158
+Selección automática anidada V2 (Música),V2 | musica_sola | Seleccion automatica anidada,musica_sola,Seleccion automatica anidada,0.515,0.5116,0.4959,0.4376,0.4778,0.5717,0.62,0.2567,0.085
+Selección automática anidada V2 (Relaciones + Música),V2 | relaciones_musica | Seleccion automatica anidada,relaciones_musica,Seleccion automatica anidada,0.69,0.6859,0.6838,0.6918,0.6444,0.7616,0.785,0.2039,0.0884
